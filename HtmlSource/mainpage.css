@@ -1,0 +1,39 @@
+#BasicAPIs{
+    display: flex;
+    align-items: center;
+}
+#bodyContainer{
+    width: 1000px;
+    margin: 0px auto;
+    margin-top: 32px;
+}
+.post{
+    display: block;
+    width: 1000px;
+    height: 128px;
+    background-color: #48484b;
+    margin-bottom: 32px;
+    border: 1px solid #b0b6b7;
+    border-radius: 15px;
+    transition-duration: 248ms;
+}
+.post:hover{
+    background-color: #b0b6b7;
+    border-color: #d5d7d8;
+}
+.post:active{
+    background-color: #e9e9eb;
+    border-color: #f8f8f8;
+}
+.postTitle{
+    font-size: 40px;
+    color: white;
+    padding-top: 16px;
+    padding-left: 16px;
+}
+.postDate{
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.677);
+    padding-left: 16px;
+    padding-top: 8px;
+}

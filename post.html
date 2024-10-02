@@ -1,0 +1,30 @@
+<!-- 해당 페이지는 글쓰기 버튼을 눌렀을때, 포스팅 화면을 표시합니다. -->
+<html lang="ko"></html>
+<head>
+    <link href="/common.css" rel="stylesheet"></link>
+    <link href="/post.css" rel="stylesheet"></link>
+    <title>블로그 글쓰기</title>
+</head>
+<body>
+    <header id="TitlePart">
+        <!-- 상단 제목과 버튼들 -->
+        <div id="TitleContainer">
+            <a href="/">
+                <h1 id="Title">블로그</h1>
+            </a>
+            <span id="BasicAPIs">
+                <div class="Button">편집</div>
+                <a href="/" class="Button" id = "uploadButton">작성완료</a>
+            </span>
+        </div>
+    </header>
+    <!-- 중간쪽의 포스팅 -->
+    <div id="bodyContainer">
+        <div class="inputBorder">
+            <input id="postTitle" class="postInput" placeholder="제목을 입력해주세요.">
+        </div>
+        <textarea id="postContent" class="postInput" placeholder="내용을 입력해주세요."></textarea>
+    </div>
+    <script src="post.js"></script>
+</body>
+</html>

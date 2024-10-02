@@ -1,0 +1,20 @@
+#postingTitle{
+    margin: 0px 8px;
+    font-size: 28px;
+}
+#postingContent{
+    margin: 8px;
+    font-size: 18px;
+}
+.postingDate{
+    margin: 0px 8px;
+    font-size: 14px;
+    text-align: right;
+}
+.posting{
+    color: white;
+}
+hr{
+    border: 1px solid white;
+    margin: 0px;
+}
